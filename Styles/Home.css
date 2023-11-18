@@ -49,7 +49,60 @@ header {
   color: rgb(245, 240, 240);
   font-size: 60px;
   line-height: 65px;
+  transition: font-size line-heigth, 1s;
 }
 .info:hover {
-    
+    font-size: 70px;
+    line-height: 70px;
+    cursor: pointer;
+}
+.middle-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+.mission {
+    margin-top: 50px;
+    height: 100px;
+    width: 650px;
+    text-align: center;
+}
+.mission h1 {
+    font-family: cursive;
+    font-size: 45px;
+    color: gray;
+    text-align: left;
+
+}
+.mission p {
+    margin-top: -20px;
+    font-size: 34px;
+    color: rgb(140, 137, 137);
+    text-align: left;
+}
+.bottom-container {
+    width: 100%;
+}
+.HOD {
+    width: 600px;
+    height: 600px;
+}
+.HOD-info {
+    background-color: rgb(223, 223, 223);
+    height: 500px;
+    width: 564px;
+    float: right;
+    margin-left: -50px;
+    padding: 50px;
+}
+.HOD-info p {
+    color: rgb(39, 37, 37);
+    font-size: 27px;
+    text-align: center;
+}
+.HOD-info h1 {
+    text-align: center;
+}
+.HOD-info p h1 {
 }
