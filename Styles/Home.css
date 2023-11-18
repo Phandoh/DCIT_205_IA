@@ -30,10 +30,10 @@ header {
   padding: 18px;
   text-decoration: none;
   color: white;
-  transition: text-decoration padding-top, 1s;
+  transition: font-size 1s, padding 0.5s;
 }
 .links a:hover {
-  text-decoration: underline;
+  font-size: 22px;
   padding-top: 2px;
 }
 .logo {
@@ -49,7 +49,7 @@ header {
   color: rgb(245, 240, 240);
   font-size: 60px;
   line-height: 65px;
-  transition: font-size line-heigth, 1s;
+  transition: font-size 1s, line-height 1s;
 }
 .info:hover {
   font-size: 70px;
@@ -137,7 +137,7 @@ footer {
 }
 .copyright {
   color: white;
-  position:relative;
+  position: relative;
   left: 0;
   bottom: 0;
 }
