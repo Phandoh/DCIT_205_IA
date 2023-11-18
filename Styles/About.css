@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+header {
+  height: 50px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.links {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  right: 10px;
+}
+.links a {
+  padding: 18px;
+  text-decoration: none;
+  color: black;
+  transition: text-decoration padding-top, 1s;
+}
+.links a:hover {
+  text-decoration: underline;
+  padding-top: 2px;
+}
+.logo {
+  width: 20%;
+}
