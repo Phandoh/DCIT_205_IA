@@ -46,7 +46,7 @@ header {
   height: 1170px;
 }
 .heading {
-    color: rgb(48, 139, 139);
+  color: rgb(48, 139, 139);
 }
 .events-review {
   display: flex;
@@ -98,8 +98,8 @@ footer {
 }
 .bottom-text {
   color: white;
-  font-size: 16px;
   font-family: Arial;
+  font-size: 14px;
 }
 .bottom-info a {
   color: white;
