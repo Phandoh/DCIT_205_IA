@@ -36,11 +36,34 @@ header {
   width: 20%;
 }
 .top-container {
-  background-color: pink;
+  background-color: rgb(251, 243, 227);
   position: relative;
   top: 78px;
   width: 100%;
-  height: 1100px;
+}
+.course-intro {
+  color: #54504b;
+  font-size: 22px;
+  font-family: sans-serif;
+  margin-left: 30px;
+}
+.course-description {
+  background-color: rgb(246, 239, 239);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.course-description p {
+  margin-left: 200px;
+  margin-right: 200px;
+  font-size: 21px;
+  font-family: sans-serif;
+}
+li {
+  margin-left: 30px;
+  font-size: 35px;
+  color: rgb(84, 64, 7);
 }
 
 footer {
