@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+body {
+  margin: 0;
+  padding-bottom: 200px;
+}
+header {
+  position: fixed;
+  height: 50px;
+  padding: 30px 20px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  margin-top: -22px;
+  background-color: white;
+}
+.links {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  right: 10px;
+}
+.links a {
+  padding: 18px;
+  text-decoration: none;
+  color: black;
+  transition: color 1s;
+  transition: padding 0.5s, color 1s;
+}
+.links a:hover {
+  color: rgba(26, 66, 147, 0.678);
+  padding-top: 2px;
+}
+.logo {
+  width: 20%;
+}
+.top-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: rgb(252, 252, 252);
+  position: relative;
+  padding-top: 30px;
+  top: 78px;
+  height: 1250px;
+  width: 100%;
+}
+.top-container h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  color: rgb(23, 68, 107);
+  position: absolute;
+  left: 480px;
+}
+.course {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.course-img {
+  height: 250px;
+  width: 250px;
+}
+.course-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(38, 84, 148);
+  height: 250px;
+  width: 250px;
+  margin-left: 0;
+}
+.course-info p {
+  color: rgb(212, 212, 212);
+  margin-left: 10px;
+  font-size: 18px;
+  font-family: Roboto;
+}
+button {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  position: absolute;
+  top: 1290px;
+  left: 570px;
+  border-radius: 30px;
+  border: 1px solid rgb(35, 67, 155);
+  transition: background-color 1s;
+}
+button a {
+  text-decoration: none;
+  color:  rgb(35, 67, 155);
+}
+button:hover a {
+    color: white;
+}
+button:hover {
+    background-color:  rgb(35, 67, 155);
+    color: white;
+    border: 1px solid white;
+}
+footer {
+  margin-top: 190px;
+  margin-bottom: -200px;
+  width: 100%;
+  display: flex;
+  column-gap: 10px;
+  background-color: rgb(35, 67, 155);
+}
+.bottom-info {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  flex: 1;
+  padding: 20px;
+  width: 150px;
+}
+.bottom-text {
+  color: white;
+}
+.bottom-info a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.bottom-info h3 {
+  color: rgb(156, 134, 9);
+}
+.bottom-info a:hover {
+  text-decoration: underline;
+}
+.copyright {
+  color: white;
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
