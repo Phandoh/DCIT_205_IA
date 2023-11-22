@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 body {
   margin: 0;
 }
@@ -69,7 +71,7 @@ header {
   text-align: center;
 }
 .mission h1 {
-  font-family: cursive;
+  font-family: Roboto;
   font-size: 45px;
   color: gray;
   text-align: left;
@@ -78,6 +80,8 @@ header {
   margin-top: -20px;
   font-size: 34px;
   color: rgb(140, 137, 137);
+  font-family: Roboto;
+  font-weight: bold;
   text-align: left;
 }
 .bottom-container {
@@ -98,7 +102,8 @@ header {
 .HOD-info p {
   color: rgb(39, 37, 37);
   font-size: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Roboto;
+  font-weight: bold;
   text-align: left;
   line-height: 28px;
 }
