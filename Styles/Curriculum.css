@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
 body {
   margin: 0;
 }
@@ -12,6 +14,8 @@ header {
   z-index: 100;
   margin-top: -22px;
   background-color: white;
+  border: none;
+  border-bottom: 2px solid rgb(35, 67, 155);
 }
 .links {
   background-color: transparent;
@@ -36,10 +40,14 @@ header {
   width: 20%;
 }
 .top-container {
-  background-color: rgb(251, 243, 227);
+  padding-top: 5px;
+  background-color: rgb(254, 254, 254);
   position: relative;
   top: 78px;
   width: 100%;
+}
+.course {
+  margin-left: 200px;
 }
 .course-intro {
   color: #54504b;
@@ -48,7 +56,7 @@ header {
   margin-left: 30px;
 }
 .course-description {
-  background-color: rgb(246, 239, 239);
+  background-color: rgb(254, 254, 254);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,8 +70,10 @@ header {
 }
 li {
   margin-left: 30px;
-  font-size: 35px;
-  color: rgb(84, 64, 7);
+  font-size: 26px;
+  color: rgb(135, 38, 38);
+  font-family: Roboto;
+  font-weight: 600;
 }
 
 footer {

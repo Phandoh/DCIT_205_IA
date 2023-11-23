@@ -15,6 +15,8 @@ header {
   z-index: 100;
   margin-top: -22px;
   background-color: white;
+  border: none;
+  border-bottom: 2px solid rgb(35, 67, 155);
 }
 .links {
   background-color: transparent;
@@ -94,15 +96,15 @@ button {
 }
 button a {
   text-decoration: none;
-  color:  rgb(35, 67, 155);
+  color: rgb(35, 67, 155);
 }
 button:hover a {
-    color: white;
+  color: white;
 }
 button:hover {
-    background-color:  rgb(35, 67, 155);
-    color: white;
-    border: 1px solid white;
+  background-color: rgb(35, 67, 155);
+  color: white;
+  border: 1px solid white;
 }
 footer {
   margin-top: 190px;
