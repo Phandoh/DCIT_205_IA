@@ -54,7 +54,7 @@ button:hover {
   border: 2px solid white;
 }
 button:active {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 input::placeholder {
   color: rgb(224, 216, 216);

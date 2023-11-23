@@ -1,10 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 0;
   padding-bottom: 130px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)),
     url("/DCIT_205_IA/images/computer.jpg");
+  background-size: cover;
 }
 .top-container {
   width: 100%;
@@ -54,6 +59,25 @@ header {
   line-height: 65px;
   transition: font-size 1s, line-height 1s;
 }
+.admissions {
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+  background-color: rgba(0, 42, 255, 0.5);
+  border: 2px solid white;
+  font-size: 22px;
+  color: white;
+  border-radius: 10px;
+  transition: opacity 1s;
+}
+.admissions a{
+  text-decoration: none;
+  color: white;
+}
+.admissions:hover {
+  color: white;
+  opacity: 0.6;
+}
 .info:hover {
   font-size: 70px;
   line-height: 70px;
@@ -67,7 +91,7 @@ header {
 }
 .mission {
   border-radius: 8px;
-  background-color: rgb(255, 255, 255,0.3);
+  background-color: rgb(255, 255, 255, 0.3);
   padding: 30px;
   border: 2px solid white;
   margin-top: 50px;
@@ -93,6 +117,9 @@ header {
 .bottom-container {
   width: 100%;
   padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0;
 }
 .HOD {
   width: 400px;
@@ -105,7 +132,7 @@ header {
   display: inline-flex;
   flex-direction: column;
   position: absolute;
-  background-color: rgba(223, 223, 223,0.45);
+  background-color: rgba(223, 223, 223, 0.45);
   border-radius: 10px;
   height: 200px;
   width: 400px;
@@ -138,7 +165,7 @@ footer {
   display: flex;
   column-gap: 10px;
   margin-top: 0;
-  background-color: rgba(35, 67, 155,0.85);
+  background-color: rgba(35, 67, 155, 0.85);
 }
 .bottom-info {
   display: flex;
