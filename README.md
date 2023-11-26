@@ -1,5 +1,6 @@
 # DCIT_205_IA
 
+//Project Description.
 This project is a 10 page website for the computer science department of the University of Ghana, Legon.
 
 This Project is meant to test the frontend web development skills of students offerring the DCIT 205 course that is Web Design and Multimedia. Also, it is meant to inform students about the computer science department, its events,people as well some wonderful courses and programmes available to students.
@@ -19,11 +20,13 @@ Step 4: After cloning, navigate into the folder named "DCIT_205_IA" using the sa
 
 Step 5: You can then proceed with working on the project.
 
+//Student Details.
 Student Name: Phandoh Kwabena Eyiah
 
 Student ID: 11348753
 
-//Below are screenshots of the page of the website.
+//Below are screenshots of the pages of the website.
+
 Home Page:
 ![Home page](images/Home.png)
 
@@ -53,3 +56,11 @@ Alumni page:
 
 Contact Us page:
 ![Contact Us page](images/Contact-Us.png)
+
+With this project i have learnt a lot of concepts in both HTML and CSS.
+For HTML, i learnt how to structure my page into parts using divs as well as semantic HTML.
+I also learnt new tags such as span, ul, li etc.
+
+For CSS, I learnt how to use the box sizing model to style divs, how to insert background images and colors with linear gradients, how to use CSS specificity for styling, CSS positioning etc.
+
+Finally, I believe i have also learnt how to familiarize myslef with newer technologies faster and independently.
