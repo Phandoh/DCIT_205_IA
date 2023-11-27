@@ -30,34 +30,34 @@ Student ID: 11348753
 ## Below are screenshots of the pages of the website
 
 Home Page:
-![Home page](images/Home.png)
+![Home page](Screenshots/Home.png)
 
 Admissions page:
-![Admissions page](images/Admissions.png)
+![Admissions page](Screenhots/Admissions.png)
 
 About page:
-![About page](images/About.png)
+![About page](Screenshots/About.png)
 
 Events page:
-![Events page](images/Events.png)
+![Events page](Screenshots/Events.png)
 
 Curriculum page:
-![Curriculum page](images/Curriculum.png)
+![Curriculum page](Screenshots/Curriculum.png)
 
 Resources page:
-![Resources page](images/Resources.png)
+![Resources page](Screenshots/Resources.png)
 
 Courses page:
-![Courses page](<images/Short Courses.png>)
+![Courses page](<Screenshots/Short Courses.png>)
 
 Register page:
-![Register page](images/Register.png)
+![Register page](Screenshots/Register.png)
 
 Alumni page:
-![Alumni page](images/Alumni.png)
+![Alumni page](Screenshots/Alumni.png)
 
 Contact Us page:
-![Contact Us page](images/Contact-Us.png)
+![Contact Us page](Screenshots/Contact-Us.png)
 
 With this project I have learnt a lot of concepts in both HTML and CSS.
 For HTML, I learnt how to structure my page into parts using divs as well as semantic HTML.
