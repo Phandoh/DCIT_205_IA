@@ -33,7 +33,7 @@ Home Page:
 ![Home page](Screenshots/Home.png)
 
 Admissions page:
-![Admissions page](Screenhots/Admissions.png)
+![Admissions page](Screenshots/Admissions.png)
 
 About page:
 ![About page](Screenshots/About.png)
